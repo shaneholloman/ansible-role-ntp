@@ -1,6 +1,6 @@
 # Ansible Role: NTP
 
-[![CI](https://github.com/shaneholloman-org/ansible-role-ntp/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman-org/ansible-role-ntp/actions/workflows/ci.yml)
+[![CI](https://github.com/shaneholloman/ansible-role-ntp/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman/ansible-role-ntp/actions/workflows/ci.yml)
 
 Installs NTP on Linux.
 
@@ -87,4 +87,3 @@ MIT / BSD
 ## Author Information
 
 This role was created in 2023
-
