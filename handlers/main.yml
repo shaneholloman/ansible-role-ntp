@@ -5,7 +5,7 @@
     state: restarted
   when: ntp_enabled | bool
 
-- name: Restart c0ron
+- name: Restart cron
   ansible.builtin.service:
     name: "{{ ntp_cron_daemon }}"
     state: restarted
