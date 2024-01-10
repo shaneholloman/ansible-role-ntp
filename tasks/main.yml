@@ -34,9 +34,9 @@
   when: ansible_system == "Linux"
 
 - name: Set timezone.
-  timezone:
+  community.general.timezone:
     name: "{{ ntp_timezone }}"
-  notify: Restart c0ron
+  notify: Restart cron
 
 - name: Populate service facts.
   ansible.builtin.service_facts:
